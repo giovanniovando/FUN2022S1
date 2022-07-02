@@ -6,8 +6,3 @@ function fnLimpiarDisplay()
 {
     display.value = " ";
 }
-
-function fnPrueba()
-{
-    display.value;
-}
