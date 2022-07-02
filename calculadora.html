@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="calculadora.css">
+        <script src="calculadora.js"></script>
+    </head>
+    <body>
+        <div id="contenedor">
+            <table>
+                <caption>CALCULADORA</caption>
+                <th colspan="4">
+                    <input type="text" id="display" readonly="readonly">
+                </th>
+                <tr>
+                    <td><button>C</button></td>
+                    <td><button>^</button></td>
+                    <td><button>%</button></td>
+                    <td><button>/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="fnMarcarBoton(7)">7</button></td>
+                    <td><button onclick="fnMarcarBoton(8)">8</button></td>
+                    <td><button onclick="fnMarcarBoton(9)">9</button></td>
+                    <td><button>x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="fnMarcarBoton(4)">4</button></td>
+                    <td><button onclick="fnMarcarBoton(5)">5</button></td>
+                    <td><button onclick="fnMarcarBoton(6)">6</button></td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="fnMarcarBoton(1)">1</button></td>
+                    <td><button onclick="fnMarcarBoton(2)">2</button></td>
+                    <td><button onclick="fnMarcarBoton(3)">3</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button>+/-</button></td>
+                    <td><button onclick="fnMarcarBoton(0)">0</button></td>
+                    <td><button onclick="fnMarcarBoton('.')">.</button></td>
+                    <td><button>=</button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

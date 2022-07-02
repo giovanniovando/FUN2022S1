@@ -1,0 +1,28 @@
+/*Aplicamos estilo al elemento body*/
+body{
+    background-color: black; /*Propiedad para el color de fondo*/
+    font-family: Courier; /*Propiedad para definir el tipo de fuente*/
+    font-size: 25px; /*Propiedad para definir el tamaño de fuente*/
+}
+/*Aplicamos estilos para la tabla, celdas y la leyenda de la tabla*/
+table , th , td , caption{
+    color: white; /*Color de la fuente*/
+    border: 5px solid white; /*Aplicamos un borde de 5px, sólido y color*/
+    border-collapse: collapse; /*Utilizamos esta propiedad para unir los bordes*/
+}
+/*Aplicamos estilos a los botones*/
+button{
+    width: 75px; /*Definimos el ancho de los botones*/
+    height: 75px; /*Definimos el alto de los botones*/
+    font-size: 25px; /*Tamaño de fuente de los botones*/
+}
+#display{
+    width: 320px; /*Definimos el ancho de la pantalla*/
+    height: 70px; /*Definimos el alto de la pantalla*/
+    font-size: 35px; /*Definimos el tamaño de la fuente*/
+    border-collapse: collapse; /*Unimos los bordes*/
+    text-align: right; /*Definioms la alineación del texto a la derecha*/
+}
+#contenedor{
+    padding-left: 37%; /*Movemos el contenedor un 37% a la derecha en la pantalla*/
+}
